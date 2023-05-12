@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+.divElem{
+    width: 150px;
+    background-color: rgb(0, 255, 21);
+    border-radius: 50%;
+    width: 75px;
+   height: 75px; 
+    border: 2px solid;
+    box-shadow:0 0 0 2px;
+     line-height: 75px; 
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.nemvilagitzolden{
+        width: 150px;
+        background-color:rgb(217, 255, 0);
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        border: 2px solid rgb(0, 0, 0);
+        box-shadow:0 0 0 2px;
+        line-height: 75px; 
+        font-size: 50px;
+        cursor: pointer;
+}
+*/
+
+/*#divtarolo{
+    display:grid;
+    grid-template-columns: repeat(3, auto); 
+    
+    width: auto;
+    margin: auto;
+}
+*/
+
+.ujjatek{
+    border-radius: 80%;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+#divtarolo{
+    display: grid;
+      
+      grid-template-columns: repeat(3, 80px);
+      grid-template-rows: repeat(3, 80px);
+      
+}
+.ujjatek{
+   
+   text-align: center;
+}
+
